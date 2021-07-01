@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "scripts.js",
   "scripts": {
-    "eleventy": "eleventy --serve",
     "server": "browser-sync start --directory --server 'app' --files 'app'",
     "sass": "sass  scss/styles.scss app/css/styles.css --watch --source-map",
     "start": "npm run server & npm run sass"
@@ -22,9 +21,6 @@
     "browser-sync": "^2.27.3",
     "concurrently": "^6.2.0",
     "sass": "^1.35.1"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^0.12.1"
   },
   "keywords": [],
   "description": ""
